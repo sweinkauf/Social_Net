@@ -20,7 +20,6 @@ const thoughtsSchema = new Schema (
             type: Schema.Types.ObjectId, ref: 'reactionSchema'
         }],
         toJSON: {
-            getters: true,
             virtuals: true,
         },
     }

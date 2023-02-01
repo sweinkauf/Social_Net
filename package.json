@@ -1,0 +1,26 @@
+{
+  "name": "social_net",
+  "version": "1.0.0",
+  "description": "Challenge 18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweinkauf/Social_Net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweinkauf/Social_Net/issues"
+  },
+  "homepage": "https://github.com/sweinkauf/Social_Net#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.0.0",
+    "mongoose": "^6.9.0",
+    "node": "^18.13.0"
+  }
+}
